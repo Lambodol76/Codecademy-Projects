@@ -1,0 +1,129 @@
+/* Elements */
+
+body {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Fix Sticky Header - We need to fix it at the top */
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+
+h2 {
+  color: seashell;
+}
+
+/* Classes and Elements */
+
+.second-section-pics h4 {
+  margin-top: 10px;
+}
+
+.third-section-title h2 {
+  /* Figure out how to be exactly 15px... */
+}
+
+/* Classes */
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-tea-cozy {
+  height: 50px;
+}
+
+.header-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* This is column because this display has flex in order the center the whole first section and otherwise they will share the same line..... check out if its correct later*/
+}
+.first-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.our-mission-section {
+  background-color: black;
+  width: 1200px;
+}
+
+.nav-link {
+  color: seashell;
+}
+
+.second-section {
+  width: 1000px;
+}
+
+.second-section-title {
+  margin-top: 50px;
+}
+.second-section-pics {
+  display: flex;
+  justify-content: center; /* Why isn't it centering like in the picture when the value is space-between? */
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.second-section-pics img {
+  height: 200px;
+  width: 300px;
+}
+
+.third-section {
+  height: 500px;
+  width: 1200px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.third-section-title {
+  height: 100px;
+  width: 100%;
+}
+
+.third-section-locations {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.location-box {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  border-radius: 15px;
+}
+
+.contact-us {
+  height: 200px;
+}
+
+.copyright {
+  margin-left: 20px;
+  text-align: left;
+}
