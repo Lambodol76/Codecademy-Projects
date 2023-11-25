@@ -1,0 +1,120 @@
+/* Elements */
+body {
+  background-color: lightsalmon;
+}
+
+/* Classes only */
+.nav-bar-container {
+  display: inline-block;
+  justify-content: flex-start;
+  background-color: teal;
+  height: 3rem;
+  padding-top: 1rem;
+  width: 100%;
+  /* Fix later so it will look exactly the same*/
+}
+
+.nav-bar-links {
+  display: flex;
+  padding-left: 2.5rem;
+}
+
+.nav-bar-item {
+  font-size: 1rem;
+  color: #ffa07a;
+  font-family: Montserrat, sans-serif;
+  margin: 0 1.5rem 0 0;
+  padding: 0.5rem 1.5rem;
+}
+
+.intro {
+  height: 30rem;
+  padding-top: 1rem;
+}
+.intro-title {
+  font-size: 2.5rem;
+  background-color: #01010180;
+  color: #ff7f50;
+  font-family: Montserrat, sans-serif;
+  margin: 160px 0 21.44px;
+  padding: 32px;
+  text-align: center;
+}
+
+.summary {
+  margin: 4rem 0;
+  padding: 0 1rem;
+}
+
+.summary-title {
+  font-size: 24px;
+  color: #ffff00;
+  margin: 19.92px 0;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+}
+
+.summary-content {
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: Montserrat, sans-serif;
+  margin: 1rem 0;
+}
+
+.photos {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background-color: #008080;
+  margin: 4rem 0px;
+  padding: 1rem 1rem 0;
+  height: 20rem;
+}
+
+.testimonial-title {
+  color: #ffff00;
+  font-size: 3.5rem;
+  margin: 26.8px 0;
+}
+
+.testimonial-paragraph {
+  color: #ffff00;
+  font-size: 1rem;
+  margin: 1rem 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.meetup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meetup-title {
+  color: #ffff00;
+  font-size: 2rem;
+  font-family: Montserrat, sans-serif;
+  margin: 1.3rem 0;
+}
+
+.meetup-image {
+  width: 50%;
+
+  /* Trying to center the image.. */
+}
+.summary,
+.testimonial,
+.photos,
+.meetup {
+  margin: 4em auto;
+}
+/* Classes and Elements */
+
+.photos img {
+  width: 30%;
+  min-width: 400px;
+}
