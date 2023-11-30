@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-project",
+  "version": "1.0.0",
+  "description": "Portfolio Project via Codecademy.com",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
