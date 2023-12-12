@@ -4,4 +4,4 @@
 <h1 align="center">Here you can see all of my up-to-date projects</h1>
 
 
-<p align="center">- 🌱  Currently working with HTML, CSS, JS, Node and Git </p>
+<p align="center">- 🌱  Currently working with HTML, CSS, JS, React, Node.js and Git </p>
