@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+html {
+  margin: 0 auto;
+  width: 1500px;
+}
+
+body {
+  background-image: url(/src/images/bg-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Root */
+
+.App {
+  text-align: center;
+}
+
+/* Header */
+
+.header {
+  height: 5.5rem;
+  background-color: transparent;
+}
+
+.header-title {
+  font-size: 3.5rem;
+  font-family: "Silkscreen", sans-serif;
+  color: white;
+}
+
+.header-title-bro {
+  color: #099bfc;
+}
+
+/* Input */
+
+.input-search {
+  width: 150px;
+  height: 35px;
+  margin-top: 50px;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  text-align: center;
+}
+
+/* Search Button */
+
+.search-btn {
+  margin-top: 35px;
+}
+
+/* Container */
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* background-color: black; */
+  height: auto;
+  gap: 50px;
+  margin-top: 35px;
+}
+
+/* Search Results */
+.searchResults {
+  /* background-color: white; */
+  /* background-color: rgba(117, 96, 236, 0.7); */
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.2);
+  color: whitesmoke;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.searchResults-title {
+  text-align: start;
+}
+
+.result {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.add-to-playlist-btn {
+  justify-self: center;
+  align-self: center;
+}
+
+.previewRnA-btn {
+  justify-self: center;
+  align-self: center;
+}
+
+/* Saved Results */
+
+.savedResults {
+  /* background-color: gray; */
+  /* background-color: rgba(117, 96, 236, 0.7); */
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.artist-details h3 {
+  text-align: start;
+}
+
+/* Buttons */
+.btn {
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.05);
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #3498db;
+  border-radius: 0.6em;
+  color: #3498db;
+  cursor: pointer;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px $blue inset, 0 0 0 0 #3498db;
+  transition: all 150ms ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  }
+}
+
+.preview-btn {
+}
